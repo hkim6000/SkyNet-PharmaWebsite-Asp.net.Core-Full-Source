@@ -1,0 +1,2165 @@
+{
+  "areas": [
+    {
+      "key": "oncology",
+      "label": "Oncology",
+      "color": "#C2536B",
+      "tint": "#F8E8EC",
+      "blurb": "Targeted medicines and antibody–drug conjugates for hard-to-treat solid tumors and blood cancers."
+    },
+    {
+      "key": "immunology",
+      "label": "Immunology",
+      "color": "#2F7FB8",
+      "tint": "#E6F0F8",
+      "blurb": "Precision biologics that calm overactive immune pathways in skin, gut and joint disease."
+    },
+    {
+      "key": "neuroscience",
+      "label": "Neuroscience",
+      "color": "#7A5BB5",
+      "tint": "#EFEAF7",
+      "blurb": "New approaches to neurodegeneration, migraine and mood disorders, guided by human genetics."
+    },
+    {
+      "key": "cardiometabolic",
+      "label": "Cardiometabolic",
+      "color": "#C9742B",
+      "tint": "#F9EEE3",
+      "blurb": "Long-acting therapies for heart failure, lipid disorders and metabolic disease."
+    },
+    {
+      "key": "rare",
+      "label": "Rare Disease",
+      "color": "#2E9A7E",
+      "tint": "#E4F4EF",
+      "blurb": "Gene and RNA medicines for small patient communities with no approved options."
+    }
+  ],
+  "phases": [
+    {
+      "key": "preclinical",
+      "label": "Preclinical"
+    },
+    {
+      "key": "p1",
+      "label": "Phase 1"
+    },
+    {
+      "key": "p2",
+      "label": "Phase 2"
+    },
+    {
+      "key": "p3",
+      "label": "Phase 3"
+    },
+    {
+      "key": "filed",
+      "label": "Filed"
+    },
+    {
+      "key": "approved",
+      "label": "Approved"
+    }
+  ],
+  "statuses": [
+    {
+      "key": "recruiting",
+      "label": "Recruiting"
+    },
+    {
+      "key": "active",
+      "label": "Active, not recruiting"
+    },
+    {
+      "key": "notyet",
+      "label": "Not yet recruiting"
+    },
+    {
+      "key": "completed",
+      "label": "Completed"
+    }
+  ],
+  "newsCats": [
+    {
+      "key": "corporate",
+      "label": "Corporate"
+    },
+    {
+      "key": "rd",
+      "label": "R&D"
+    },
+    {
+      "key": "financial",
+      "label": "Financial"
+    },
+    {
+      "key": "partnerships",
+      "label": "Partnerships"
+    }
+  ],
+  "depts": [
+    {
+      "key": "rd",
+      "label": "Research & Development"
+    },
+    {
+      "key": "clinical",
+      "label": "Clinical Development"
+    },
+    {
+      "key": "mfg",
+      "label": "Manufacturing & Quality"
+    },
+    {
+      "key": "commercial",
+      "label": "Commercial"
+    },
+    {
+      "key": "corporate",
+      "label": "Corporate Functions"
+    }
+  ],
+  "locs": [
+    {
+      "key": "boston",
+      "label": "Boston, MA"
+    },
+    {
+      "key": "raleigh",
+      "label": "Raleigh, NC"
+    },
+    {
+      "key": "london",
+      "label": "London, UK"
+    },
+    {
+      "key": "tokyo",
+      "label": "Tokyo, Japan"
+    },
+    {
+      "key": "remote",
+      "label": "Remote (US)"
+    }
+  ],
+  "products": [
+    {
+      "id": "p01",
+      "brand": "Velorix",
+      "generic": "orevantinib",
+      "area": "oncology",
+      "form": "tablet",
+      "formLabel": "Tablets",
+      "indication": "Adults with advanced solid tumors carrying the VRX-1 alteration",
+      "year": 2021,
+      "image": "images/products/p01.svg"
+    },
+    {
+      "id": "p02",
+      "brand": "Quenzara",
+      "generic": "tazulimab-cvra",
+      "area": "oncology",
+      "form": "vial",
+      "formLabel": "Injection (vial)",
+      "indication": "Relapsed or refractory multiple myeloma after two prior lines",
+      "year": 2022,
+      "image": "images/products/p02.svg"
+    },
+    {
+      "id": "p03",
+      "brand": "Ondrelle",
+      "generic": "emzaratinib",
+      "area": "oncology",
+      "form": "capsule",
+      "formLabel": "Capsules",
+      "indication": "Metastatic non-small cell lung cancer, first line",
+      "year": 2024,
+      "image": "images/products/p03.svg"
+    },
+    {
+      "id": "p04",
+      "brand": "Lumacyte",
+      "generic": "berolumab-cvra",
+      "area": "oncology",
+      "form": "vial",
+      "formLabel": "Injection (vial)",
+      "indication": "HER-low metastatic breast cancer",
+      "year": 2025,
+      "image": "images/products/p04.svg"
+    },
+    {
+      "id": "p05",
+      "brand": "Dermavia",
+      "generic": "solekizumab",
+      "area": "immunology",
+      "form": "pen",
+      "formLabel": "Prefilled pen",
+      "indication": "Moderate-to-severe plaque psoriasis in adults",
+      "year": 2020,
+      "image": "images/products/p05.svg"
+    },
+    {
+      "id": "p06",
+      "brand": "Colitra",
+      "generic": "corvatinib",
+      "area": "immunology",
+      "form": "tablet",
+      "formLabel": "Tablets",
+      "indication": "Moderately to severely active ulcerative colitis",
+      "year": 2023,
+      "image": "images/products/p06.svg"
+    },
+    {
+      "id": "p07",
+      "brand": "Artheza",
+      "generic": "teravolumab",
+      "area": "immunology",
+      "form": "pen",
+      "formLabel": "Prefilled pen",
+      "indication": "Active psoriatic arthritis",
+      "year": 2024,
+      "image": "images/products/p07.svg"
+    },
+    {
+      "id": "p08",
+      "brand": "Brevora",
+      "generic": "fenacotide",
+      "area": "immunology",
+      "form": "inhaler",
+      "formLabel": "Inhaler",
+      "indication": "Severe eosinophilic asthma, add-on maintenance",
+      "year": 2022,
+      "image": "images/products/p08.svg"
+    },
+    {
+      "id": "p09",
+      "brand": "Neurelle",
+      "generic": "caprozanib",
+      "area": "neuroscience",
+      "form": "tablet",
+      "formLabel": "Tablets",
+      "indication": "Preventive treatment of episodic migraine",
+      "year": 2021,
+      "image": "images/products/p09.svg"
+    },
+    {
+      "id": "p10",
+      "brand": "Moravel",
+      "generic": "dalvetine",
+      "area": "neuroscience",
+      "form": "capsule",
+      "formLabel": "Capsules",
+      "indication": "Major depressive disorder in adults",
+      "year": 2019,
+      "image": "images/products/p10.svg"
+    },
+    {
+      "id": "p11",
+      "brand": "Synavo",
+      "generic": "trelanemab",
+      "area": "neuroscience",
+      "form": "vial",
+      "formLabel": "Injection (vial)",
+      "indication": "Early symptomatic Alzheimer's disease",
+      "year": 2026,
+      "image": "images/products/p11.svg"
+    },
+    {
+      "id": "p12",
+      "brand": "Cardelle",
+      "generic": "calvasiran",
+      "area": "cardiometabolic",
+      "form": "pen",
+      "formLabel": "Prefilled pen",
+      "indication": "Primary hyperlipidemia, twice-yearly dosing",
+      "year": 2023,
+      "image": "images/products/p12.svg"
+    },
+    {
+      "id": "p13",
+      "brand": "Ventrel",
+      "generic": "amlofenib",
+      "area": "cardiometabolic",
+      "form": "tablet",
+      "formLabel": "Tablets",
+      "indication": "Chronic heart failure with reduced ejection fraction",
+      "year": 2020,
+      "image": "images/products/p13.svg"
+    },
+    {
+      "id": "p14",
+      "brand": "Glycora",
+      "generic": "lorvatide",
+      "area": "cardiometabolic",
+      "form": "pen",
+      "formLabel": "Prefilled pen",
+      "indication": "Type 2 diabetes, once-weekly",
+      "year": 2024,
+      "image": "images/products/p14.svg"
+    },
+    {
+      "id": "p15",
+      "brand": "Elvaris",
+      "generic": "elvoparvec",
+      "area": "rare",
+      "form": "vial",
+      "formLabel": "Injection (vial)",
+      "indication": "Spinal muscular atrophy, one-time gene therapy",
+      "year": 2023,
+      "image": "images/products/p15.svg"
+    },
+    {
+      "id": "p16",
+      "brand": "Hemavia",
+      "generic": "hevarsiran",
+      "area": "rare",
+      "form": "bottle",
+      "formLabel": "Oral solution",
+      "indication": "Hereditary transthyretin amyloidosis with polyneuropathy",
+      "year": 2025,
+      "image": "images/products/p16.svg"
+    }
+  ],
+  "programs": [
+    {
+      "code": "CLV-101",
+      "name": "orevantinib",
+      "area": "oncology",
+      "phase": "approved",
+      "indication": "VRX-1 solid tumors",
+      "modality": "Small molecule",
+      "milestone": "Label expansion filing 2027"
+    },
+    {
+      "code": "CLV-114",
+      "name": "tazulimab-cvra",
+      "area": "oncology",
+      "phase": "approved",
+      "indication": "Multiple myeloma",
+      "modality": "Antibody",
+      "milestone": "Earlier-line data H1 2027"
+    },
+    {
+      "code": "CLV-122",
+      "name": "berolumab-cvra",
+      "area": "oncology",
+      "phase": "filed",
+      "indication": "HER-low breast cancer (first line)",
+      "modality": "ADC",
+      "milestone": "Regulatory decision Q2 2027"
+    },
+    {
+      "code": "CLV-131",
+      "name": "emzaratinib",
+      "area": "oncology",
+      "phase": "p3",
+      "indication": "NSCLC adjuvant",
+      "modality": "Small molecule",
+      "milestone": "Phase 3 readout 2027"
+    },
+    {
+      "code": "CLV-140",
+      "name": "CLV-140",
+      "area": "oncology",
+      "phase": "p2",
+      "indication": "Small cell lung cancer",
+      "modality": "Bispecific",
+      "milestone": "Phase 2 data at oncology congress"
+    },
+    {
+      "code": "CLV-147",
+      "name": "CLV-147",
+      "area": "oncology",
+      "phase": "p1",
+      "indication": "Ovarian cancer",
+      "modality": "ADC",
+      "milestone": "Dose escalation complete"
+    },
+    {
+      "code": "CLV-158",
+      "name": "CLV-158",
+      "area": "oncology",
+      "phase": "preclinical",
+      "indication": "Pancreatic cancer (KRAS)",
+      "modality": "Small molecule",
+      "milestone": "IND filing 2027"
+    },
+    {
+      "code": "CLV-205",
+      "name": "solekizumab",
+      "area": "immunology",
+      "phase": "approved",
+      "indication": "Plaque psoriasis",
+      "modality": "Antibody",
+      "milestone": "Pediatric study ongoing"
+    },
+    {
+      "code": "CLV-211",
+      "name": "corvatinib",
+      "area": "immunology",
+      "phase": "p3",
+      "indication": "Crohn's disease",
+      "modality": "Small molecule",
+      "milestone": "Phase 3 enrollment complete"
+    },
+    {
+      "code": "CLV-219",
+      "name": "teravolumab",
+      "area": "immunology",
+      "phase": "filed",
+      "indication": "Hidradenitis suppurativa",
+      "modality": "Antibody",
+      "milestone": "Regulatory decision H2 2027"
+    },
+    {
+      "code": "CLV-226",
+      "name": "CLV-226",
+      "area": "immunology",
+      "phase": "p2",
+      "indication": "Atopic dermatitis",
+      "modality": "Antibody",
+      "milestone": "Phase 2b readout Q4 2026"
+    },
+    {
+      "code": "CLV-233",
+      "name": "CLV-233",
+      "area": "immunology",
+      "phase": "p1",
+      "indication": "Lupus",
+      "modality": "Cell therapy",
+      "milestone": "First patient dosed"
+    },
+    {
+      "code": "CLV-302",
+      "name": "trelanemab",
+      "area": "neuroscience",
+      "phase": "approved",
+      "indication": "Early Alzheimer's disease",
+      "modality": "Antibody",
+      "milestone": "Subcutaneous form in Phase 3"
+    },
+    {
+      "code": "CLV-310",
+      "name": "CLV-310",
+      "area": "neuroscience",
+      "phase": "p3",
+      "indication": "Parkinson's disease",
+      "modality": "Small molecule",
+      "milestone": "Phase 3 readout 2027"
+    },
+    {
+      "code": "CLV-318",
+      "name": "CLV-318",
+      "area": "neuroscience",
+      "phase": "p2",
+      "indication": "Treatment-resistant depression",
+      "modality": "Small molecule",
+      "milestone": "Phase 2 data Q1 2027"
+    },
+    {
+      "code": "CLV-325",
+      "name": "CLV-325",
+      "area": "neuroscience",
+      "phase": "preclinical",
+      "indication": "ALS",
+      "modality": "RNA",
+      "milestone": "Candidate selected"
+    },
+    {
+      "code": "CLV-404",
+      "name": "calvasiran",
+      "area": "cardiometabolic",
+      "phase": "approved",
+      "indication": "Hyperlipidemia",
+      "modality": "RNA",
+      "milestone": "Outcomes study fully enrolled"
+    },
+    {
+      "code": "CLV-412",
+      "name": "lorvatide",
+      "area": "cardiometabolic",
+      "phase": "p3",
+      "indication": "Obesity",
+      "modality": "Peptide",
+      "milestone": "Phase 3 readout H2 2027"
+    },
+    {
+      "code": "CLV-419",
+      "name": "CLV-419",
+      "area": "cardiometabolic",
+      "phase": "p2",
+      "indication": "Heart failure (HFpEF)",
+      "modality": "Antibody",
+      "milestone": "Phase 2 enrollment ongoing"
+    },
+    {
+      "code": "CLV-427",
+      "name": "CLV-427",
+      "area": "cardiometabolic",
+      "phase": "p1",
+      "indication": "Lp(a) elevation",
+      "modality": "RNA",
+      "milestone": "Single ascending dose complete"
+    },
+    {
+      "code": "CLV-501",
+      "name": "elvoparvec",
+      "area": "rare",
+      "phase": "approved",
+      "indication": "Spinal muscular atrophy",
+      "modality": "Gene therapy",
+      "milestone": "Long-term follow-up"
+    },
+    {
+      "code": "CLV-508",
+      "name": "CLV-508",
+      "area": "rare",
+      "phase": "p2",
+      "indication": "Duchenne muscular dystrophy",
+      "modality": "Gene therapy",
+      "milestone": "Pivotal cohort dosing"
+    },
+    {
+      "code": "CLV-515",
+      "name": "CLV-515",
+      "area": "rare",
+      "phase": "p1",
+      "indication": "Fabry disease",
+      "modality": "RNA",
+      "milestone": "First cohort dosed"
+    },
+    {
+      "code": "CLV-522",
+      "name": "CLV-522",
+      "area": "rare",
+      "phase": "preclinical",
+      "indication": "Rett syndrome",
+      "modality": "Gene therapy",
+      "milestone": "IND-enabling studies"
+    }
+  ],
+  "trials": [
+    {
+      "id": "CT-2026-101",
+      "program": "CLV-131",
+      "title": "Emzaratinib after surgery in early-stage lung cancer",
+      "condition": "Non-small cell lung cancer",
+      "phase": "p3",
+      "status": "recruiting",
+      "locations": [
+        "Chicago, IL",
+        "London, UK",
+        "Boston, MA",
+        "Raleigh, NC"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 740,
+      "start": "2026-02",
+      "completion": "2028-01",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-131 is for people with non-small cell lung cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of non-small cell lung cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2025-102",
+      "program": "CLV-140",
+      "title": "Bispecific CLV-140 in extensive-stage small cell lung cancer",
+      "condition": "Small cell lung cancer",
+      "phase": "p2",
+      "status": "recruiting",
+      "locations": [
+        "London, UK",
+        "Sydney, Australia"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 290,
+      "start": "2022-04",
+      "completion": "2026-02",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-140 is for people with small cell lung cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of small cell lung cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2024-103",
+      "program": "CLV-147",
+      "title": "First-in-human study of CLV-147 in platinum-resistant ovarian cancer",
+      "condition": "Ovarian cancer",
+      "phase": "p1",
+      "status": "active",
+      "locations": [
+        "Seoul, South Korea",
+        "Sydney, Australia",
+        "Tokyo, Japan"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 70,
+      "start": "2022-10",
+      "completion": "2024-09",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-147 is for people with ovarian cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of ovarian cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2023-104",
+      "program": "CLV-122",
+      "title": "Berolumab-cvra versus chemotherapy in HER-low breast cancer",
+      "condition": "Breast cancer",
+      "phase": "p3",
+      "status": "completed",
+      "locations": [
+        "Houston, TX",
+        "London, UK",
+        "Chicago, IL"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 2030,
+      "start": "2026-02",
+      "completion": "2028-02",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-122 is for people with breast cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of breast cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2026-105",
+      "program": "CLV-114",
+      "title": "Tazulimab-cvra in newly diagnosed multiple myeloma",
+      "condition": "Multiple myeloma",
+      "phase": "p3",
+      "status": "recruiting",
+      "locations": [
+        "Toronto, Canada",
+        "Raleigh, NC",
+        "Madrid, Spain"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 1120,
+      "start": "2022-10",
+      "completion": "2026-09",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-114 is for people with multiple myeloma. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of multiple myeloma",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2025-106",
+      "program": "CLV-101",
+      "title": "Orevantinib in VRX-1 positive colorectal cancer",
+      "condition": "Colorectal cancer",
+      "phase": "p2",
+      "status": "active",
+      "locations": [
+        "Toronto, Canada",
+        "Berlin, Germany",
+        "Tokyo, Japan",
+        "Seoul, South Korea",
+        "Sydney, Australia"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 170,
+      "start": "2024-04",
+      "completion": "2026-10",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-101 is for people with colorectal cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of colorectal cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2024-107",
+      "program": "CLV-211",
+      "title": "Corvatinib in moderate-to-severe Crohn's disease",
+      "condition": "Crohn's disease",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "Madrid, Spain",
+        "Berlin, Germany",
+        "Toronto, Canada",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 1910,
+      "start": "2024-10",
+      "completion": "2026-06",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-211 is for people with crohn's disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of crohn's disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2023-108",
+      "program": "CLV-226",
+      "title": "CLV-226 in adolescents and adults with atopic dermatitis",
+      "condition": "Atopic dermatitis",
+      "phase": "p2",
+      "status": "recruiting",
+      "locations": [
+        "Berlin, Germany",
+        "London, UK",
+        "Boston, MA"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 370,
+      "start": "2022-09",
+      "completion": "2025-12",
+      "ages": "12 years and older",
+      "summary": "This study looks at how safe and effective CLV-226 is for people with atopic dermatitis. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of atopic dermatitis",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2026-109",
+      "program": "CLV-233",
+      "title": "CAR-T cell therapy CLV-233 in refractory lupus",
+      "condition": "Systemic lupus erythematosus",
+      "phase": "p1",
+      "status": "recruiting",
+      "locations": [
+        "Tokyo, Japan",
+        "Berlin, Germany",
+        "Sydney, Australia",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 50,
+      "start": "2022-02",
+      "completion": "2024-01",
+      "ages": "18 to 80 years",
+      "summary": "This study looks at how safe and effective CLV-233 is for people with systemic lupus erythematosus. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of systemic lupus erythematosus",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2025-110",
+      "program": "CLV-219",
+      "title": "Teravolumab in hidradenitis suppurativa",
+      "condition": "Hidradenitis suppurativa",
+      "phase": "p3",
+      "status": "completed",
+      "locations": [
+        "Seoul, South Korea",
+        "Tokyo, Japan",
+        "Berlin, Germany",
+        "Houston, TX"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 3000,
+      "start": "2025-11",
+      "completion": "2028-03",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-219 is for people with hidradenitis suppurativa. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of hidradenitis suppurativa",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2024-111",
+      "program": "CLV-205",
+      "title": "Solekizumab in children with plaque psoriasis",
+      "condition": "Plaque psoriasis",
+      "phase": "p3",
+      "status": "recruiting",
+      "locations": [
+        "Berlin, Germany",
+        "Boston, MA"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 1230,
+      "start": "2023-05",
+      "completion": "2026-08",
+      "ages": "4 to 17 years",
+      "summary": "This study looks at how safe and effective CLV-205 is for people with plaque psoriasis. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of plaque psoriasis",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2023-112",
+      "program": "CLV-302",
+      "title": "Subcutaneous trelanemab in early Alzheimer's disease",
+      "condition": "Alzheimer's disease",
+      "phase": "p3",
+      "status": "recruiting",
+      "locations": [
+        "Chicago, IL",
+        "Berlin, Germany"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 950,
+      "start": "2025-09",
+      "completion": "2029-05",
+      "ages": "50 to 85 years",
+      "summary": "This study looks at how safe and effective CLV-302 is for people with alzheimer's disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of alzheimer's disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "neuroscience"
+    },
+    {
+      "id": "CT-2026-113",
+      "program": "CLV-310",
+      "title": "CLV-310 in early Parkinson's disease",
+      "condition": "Parkinson's disease",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "Toronto, Canada",
+        "Seoul, South Korea",
+        "London, UK",
+        "San Diego, CA",
+        "Chicago, IL"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 2280,
+      "start": "2022-03",
+      "completion": "2024-08",
+      "ages": "50 to 85 years",
+      "summary": "This study looks at how safe and effective CLV-310 is for people with parkinson's disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of parkinson's disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "neuroscience"
+    },
+    {
+      "id": "CT-2025-114",
+      "program": "CLV-318",
+      "title": "CLV-318 in treatment-resistant depression",
+      "condition": "Depression",
+      "phase": "p2",
+      "status": "recruiting",
+      "locations": [
+        "Houston, TX",
+        "Sydney, Australia",
+        "Boston, MA"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 230,
+      "start": "2023-07",
+      "completion": "2026-03",
+      "ages": "18 to 80 years",
+      "summary": "This study looks at how safe and effective CLV-318 is for people with depression. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of depression",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "neuroscience"
+    },
+    {
+      "id": "CT-2024-115",
+      "program": "CLV-302",
+      "title": "Long-term extension of trelanemab",
+      "condition": "Alzheimer's disease",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "Berlin, Germany",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 1600,
+      "start": "2026-07",
+      "completion": "2029-11",
+      "ages": "50 to 85 years",
+      "summary": "This study looks at how safe and effective CLV-302 is for people with alzheimer's disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of alzheimer's disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "neuroscience"
+    },
+    {
+      "id": "CT-2023-116",
+      "program": "CLV-412",
+      "title": "Once-weekly lorvatide in adults with obesity",
+      "condition": "Obesity",
+      "phase": "p3",
+      "status": "recruiting",
+      "locations": [
+        "Boston, MA",
+        "San Diego, CA",
+        "Raleigh, NC",
+        "Seoul, South Korea",
+        "Berlin, Germany"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 730,
+      "start": "2023-02",
+      "completion": "2025-10",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-412 is for people with obesity. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of obesity",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2026-117",
+      "program": "CLV-412",
+      "title": "Semavotide in obesity with type 2 diabetes",
+      "condition": "Obesity",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "Madrid, Spain",
+        "Raleigh, NC",
+        "Toronto, Canada"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 1130,
+      "start": "2026-01",
+      "completion": "2029-03",
+      "ages": "18 to 80 years",
+      "summary": "This study looks at how safe and effective CLV-412 is for people with obesity. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of obesity",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2025-118",
+      "program": "CLV-419",
+      "title": "CLV-419 in heart failure with preserved ejection fraction",
+      "condition": "Heart failure",
+      "phase": "p2",
+      "status": "recruiting",
+      "locations": [
+        "Toronto, Canada",
+        "Tokyo, Japan",
+        "Sydney, Australia",
+        "Berlin, Germany"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 270,
+      "start": "2022-02",
+      "completion": "2025-05",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-419 is for people with heart failure. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of heart failure",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2024-119",
+      "program": "CLV-427",
+      "title": "CLV-427 in adults with elevated Lp(a)",
+      "condition": "Cardiovascular disease",
+      "phase": "p1",
+      "status": "completed",
+      "locations": [
+        "Chicago, IL",
+        "Raleigh, NC"
+      ],
+      "regions": [
+        "us"
+      ],
+      "enrollment": 50,
+      "start": "2024-12",
+      "completion": "2026-09",
+      "ages": "18 to 80 years",
+      "summary": "This study looks at how safe and effective CLV-427 is for people with cardiovascular disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of cardiovascular disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2023-120",
+      "program": "CLV-404",
+      "title": "Calvasiran cardiovascular outcomes study",
+      "condition": "Hyperlipidemia",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "San Diego, CA",
+        "Madrid, Spain"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 2940,
+      "start": "2024-03",
+      "completion": "2028-05",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-404 is for people with hyperlipidemia. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of hyperlipidemia",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2026-121",
+      "program": "CLV-508",
+      "title": "Gene therapy CLV-508 in ambulatory boys with Duchenne",
+      "condition": "Duchenne muscular dystrophy",
+      "phase": "p2",
+      "status": "recruiting",
+      "locations": [
+        "Sydney, Australia",
+        "Houston, TX"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 230,
+      "start": "2026-06",
+      "completion": "2030-09",
+      "ages": "4 to 17 years",
+      "summary": "This study looks at how safe and effective CLV-508 is for people with duchenne muscular dystrophy. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of duchenne muscular dystrophy",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "rare"
+    },
+    {
+      "id": "CT-2025-122",
+      "program": "CLV-515",
+      "title": "CLV-515 in adults with Fabry disease",
+      "condition": "Fabry disease",
+      "phase": "p1",
+      "status": "recruiting",
+      "locations": [
+        "Seoul, South Korea",
+        "San Diego, CA",
+        "Tokyo, Japan",
+        "Sydney, Australia"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 80,
+      "start": "2023-07",
+      "completion": "2027-08",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-515 is for people with fabry disease. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of fabry disease",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "rare"
+    },
+    {
+      "id": "CT-2024-123",
+      "program": "CLV-501",
+      "title": "Elvoparvec 15-year follow-up registry",
+      "condition": "Spinal muscular atrophy",
+      "phase": "p3",
+      "status": "active",
+      "locations": [
+        "Sydney, Australia",
+        "Boston, MA",
+        "Seoul, South Korea",
+        "Houston, TX"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 2140,
+      "start": "2025-05",
+      "completion": "2028-12",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-501 is for people with spinal muscular atrophy. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of spinal muscular atrophy",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "rare"
+    },
+    {
+      "id": "CT-2023-124",
+      "program": "CLV-131",
+      "title": "Emzaratinib plus chemotherapy in metastatic lung cancer",
+      "condition": "Non-small cell lung cancer",
+      "phase": "p3",
+      "status": "completed",
+      "locations": [
+        "Toronto, Canada",
+        "Raleigh, NC",
+        "San Diego, CA",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 1120,
+      "start": "2023-08",
+      "completion": "2027-10",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-131 is for people with non-small cell lung cancer. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of non-small cell lung cancer",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2026-125",
+      "program": "CLV-140",
+      "title": "CLV-140 in neuroendocrine tumors",
+      "condition": "Neuroendocrine tumors",
+      "phase": "p1",
+      "status": "notyet",
+      "locations": [
+        "Berlin, Germany",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl"
+      ],
+      "enrollment": 30,
+      "start": "2024-11",
+      "completion": "2027-12",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-140 is for people with neuroendocrine tumors. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of neuroendocrine tumors",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "oncology"
+    },
+    {
+      "id": "CT-2025-126",
+      "program": "CLV-226",
+      "title": "CLV-226 in prurigo nodularis",
+      "condition": "Prurigo nodularis",
+      "phase": "p2",
+      "status": "notyet",
+      "locations": [
+        "Berlin, Germany",
+        "Chicago, IL",
+        "London, UK"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 350,
+      "start": "2024-02",
+      "completion": "2027-12",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-226 is for people with prurigo nodularis. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of prurigo nodularis",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    },
+    {
+      "id": "CT-2024-127",
+      "program": "CLV-318",
+      "title": "CLV-318 relapse-prevention study",
+      "condition": "Depression",
+      "phase": "p2",
+      "status": "notyet",
+      "locations": [
+        "Sydney, Australia",
+        "Chicago, IL"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 160,
+      "start": "2023-03",
+      "completion": "2027-03",
+      "ages": "18 to 75 years",
+      "summary": "This study looks at how safe and effective CLV-318 is for people with depression. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of depression",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "neuroscience"
+    },
+    {
+      "id": "CT-2023-128",
+      "program": "CLV-419",
+      "title": "CLV-419 biomarker study",
+      "condition": "Heart failure",
+      "phase": "p1",
+      "status": "completed",
+      "locations": [
+        "Seoul, South Korea",
+        "Toronto, Canada",
+        "Chicago, IL",
+        "Madrid, Spain",
+        "Tokyo, Japan"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 90,
+      "start": "2022-01",
+      "completion": "2026-12",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-419 is for people with heart failure. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of heart failure",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "cardiometabolic"
+    },
+    {
+      "id": "CT-2026-129",
+      "program": "CLV-508",
+      "title": "CLV-508 in non-ambulatory patients",
+      "condition": "Duchenne muscular dystrophy",
+      "phase": "p2",
+      "status": "notyet",
+      "locations": [
+        "London, UK",
+        "San Diego, CA",
+        "Seoul, South Korea"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 210,
+      "start": "2022-05",
+      "completion": "2026-06",
+      "ages": "18 years and older",
+      "summary": "This study looks at how safe and effective CLV-508 is for people with duchenne muscular dystrophy. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of duchenne muscular dystrophy",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "rare"
+    },
+    {
+      "id": "CT-2025-130",
+      "program": "CLV-205",
+      "title": "Solekizumab every-12-weeks dosing study",
+      "condition": "Plaque psoriasis",
+      "phase": "p3",
+      "status": "completed",
+      "locations": [
+        "Madrid, Spain",
+        "London, UK",
+        "Chicago, IL",
+        "Boston, MA"
+      ],
+      "regions": [
+        "intl",
+        "us"
+      ],
+      "enrollment": 2680,
+      "start": "2024-08",
+      "completion": "2027-09",
+      "ages": "18 to 80 years",
+      "summary": "This study looks at how safe and effective CLV-205 is for people with plaque psoriasis. Participants are followed with regular visits, tests and questionnaires.",
+      "criteria": [
+        "Confirmed diagnosis of plaque psoriasis",
+        "Able to attend study visits",
+        "No participation in another interventional study in the last 30 days"
+      ],
+      "area": "immunology"
+    }
+  ],
+  "news": [
+    {
+      "id": "n30",
+      "date": "2026-09-29",
+      "cat": "rd",
+      "title": "Calvera presents Phase 2b data for CLV-226 in atopic dermatitis",
+      "summary": "Investigational antibody met its primary endpoint at week 16, with skin clearance maintained through week 32."
+    },
+    {
+      "id": "n29",
+      "date": "2026-09-15",
+      "cat": "partnerships",
+      "title": "Calvera and Northfield Genomics sign gene therapy manufacturing agreement",
+      "summary": "Multi-year collaboration expands viral vector capacity for the rare disease pipeline."
+    },
+    {
+      "id": "n28",
+      "date": "2026-08-04",
+      "cat": "financial",
+      "title": "Calvera reports second-quarter 2026 results",
+      "summary": "Revenue grew 14% on strong demand for Dermavia and Cardelle; full-year outlook raised."
+    },
+    {
+      "id": "n27",
+      "date": "2026-07-21",
+      "cat": "rd",
+      "title": "Regulators accept filing for berolumab-cvra in first-line HER-low breast cancer",
+      "summary": "Priority review granted, with a decision expected in the second quarter of 2027."
+    },
+    {
+      "id": "n26",
+      "date": "2026-06-30",
+      "cat": "corporate",
+      "title": "Calvera opens new research campus in Raleigh, North Carolina",
+      "summary": "The 400,000 square foot site will house 900 scientists and a clinical-scale manufacturing suite."
+    },
+    {
+      "id": "n25",
+      "date": "2026-06-02",
+      "cat": "rd",
+      "title": "Late-breaking data for emzaratinib presented at oncology congress",
+      "summary": "Adjuvant study shows a 41% reduction in risk of recurrence versus placebo."
+    },
+    {
+      "id": "n24",
+      "date": "2026-05-12",
+      "cat": "financial",
+      "title": "Calvera reports first-quarter 2026 results",
+      "summary": "Revenue of $4.3 billion; pipeline advanced with two Phase 3 starts."
+    },
+    {
+      "id": "n23",
+      "date": "2026-04-08",
+      "cat": "corporate",
+      "title": "Calvera publishes 2025 Responsibility Report",
+      "summary": "Company reports 32% cut in operational emissions and expanded patient-access programs in 40 countries."
+    },
+    {
+      "id": "n22",
+      "date": "2026-03-17",
+      "cat": "partnerships",
+      "title": "Calvera licenses RNA platform from Halden Bio",
+      "summary": "Agreement adds liver-targeted delivery technology for cardiometabolic programs."
+    },
+    {
+      "id": "n21",
+      "date": "2026-02-24",
+      "cat": "rd",
+      "title": "Synavo approved for early symptomatic Alzheimer's disease",
+      "summary": "First approval for trelanemab follows positive Phase 3 results in 1,800 patients."
+    },
+    {
+      "id": "n20",
+      "date": "2026-02-03",
+      "cat": "financial",
+      "title": "Calvera reports fourth-quarter and full-year 2025 results",
+      "summary": "Full-year revenue rose 11%; dividend increased for the ninth consecutive year."
+    },
+    {
+      "id": "n19",
+      "date": "2026-01-12",
+      "cat": "corporate",
+      "title": "Calvera to present at healthcare investor conference",
+      "summary": "Chief Executive Officer will outline 2026 priorities and the company's long-range plan."
+    },
+    {
+      "id": "n18",
+      "date": "2025-12-08",
+      "cat": "rd",
+      "title": "Phase 3 study of corvatinib in Crohn's disease completes enrollment",
+      "summary": "Topline results are expected in the second half of 2026."
+    },
+    {
+      "id": "n17",
+      "date": "2025-11-17",
+      "cat": "partnerships",
+      "title": "Calvera and Merrow Health launch decentralized trial network",
+      "summary": "Partnership brings clinical trial visits closer to patients' homes in 12 states."
+    },
+    {
+      "id": "n16",
+      "date": "2025-11-04",
+      "cat": "financial",
+      "title": "Calvera reports third-quarter 2025 results",
+      "summary": "Oncology revenue up 19%; operating margin expanded 120 basis points."
+    },
+    {
+      "id": "n15",
+      "date": "2025-10-14",
+      "cat": "rd",
+      "title": "Hemavia approved for hereditary transthyretin amyloidosis",
+      "summary": "Oral RNA medicine offers once-daily dosing for adults with polyneuropathy."
+    },
+    {
+      "id": "n14",
+      "date": "2025-09-22",
+      "cat": "corporate",
+      "title": "Calvera named one of the best places to work in biopharma",
+      "summary": "Recognition highlights flexible work, mentoring and early-career scientist programs."
+    },
+    {
+      "id": "n13",
+      "date": "2025-08-26",
+      "cat": "rd",
+      "title": "Lumacyte approved for HER-low metastatic breast cancer",
+      "summary": "Antibody–drug conjugate approved after showing improved progression-free survival."
+    },
+    {
+      "id": "n12",
+      "date": "2025-08-05",
+      "cat": "financial",
+      "title": "Calvera reports second-quarter 2025 results",
+      "summary": "Revenue of $3.9 billion; full-year outlook reaffirmed."
+    },
+    {
+      "id": "n11",
+      "date": "2025-07-01",
+      "cat": "partnerships",
+      "title": "Calvera joins global consortium on antimicrobial resistance",
+      "summary": "Company commits funding and compound libraries to early discovery research."
+    },
+    {
+      "id": "n10",
+      "date": "2025-05-20",
+      "cat": "rd",
+      "title": "Calvera begins Phase 3 program for lorvatide in obesity",
+      "summary": "Program will enroll more than 6,000 adults across 30 countries."
+    },
+    {
+      "id": "n09",
+      "date": "2025-05-06",
+      "cat": "financial",
+      "title": "Calvera reports first-quarter 2025 results",
+      "summary": "Growth led by Dermavia, Velorix and Cardelle."
+    },
+    {
+      "id": "n08",
+      "date": "2025-03-11",
+      "cat": "corporate",
+      "title": "Calvera appoints new Chief Scientific Officer",
+      "summary": "Dr. Amara Okafor joins from academic medicine to lead global research."
+    },
+    {
+      "id": "n07",
+      "date": "2025-02-04",
+      "cat": "financial",
+      "title": "Calvera reports fourth-quarter and full-year 2024 results",
+      "summary": "Full-year revenue of $15.1 billion; eight new molecular entities entered the clinic."
+    },
+    {
+      "id": "n06",
+      "date": "2024-12-02",
+      "cat": "rd",
+      "title": "Glycora approved for type 2 diabetes",
+      "summary": "Once-weekly injectable peptide improves glycemic control with weight benefits."
+    },
+    {
+      "id": "n05",
+      "date": "2024-10-29",
+      "cat": "financial",
+      "title": "Calvera reports third-quarter 2024 results",
+      "summary": "Revenue up 9%; R&D investment increased to 22% of sales."
+    },
+    {
+      "id": "n04",
+      "date": "2024-09-10",
+      "cat": "partnerships",
+      "title": "Calvera and Lattice Fold AI collaborate on protein design",
+      "summary": "Machine-learning partnership aims to shorten antibody discovery timelines."
+    },
+    {
+      "id": "n03",
+      "date": "2024-06-18",
+      "cat": "rd",
+      "title": "Ondrelle approved for first-line metastatic lung cancer",
+      "summary": "Approval based on overall survival benefit in the global Phase 3 trial."
+    },
+    {
+      "id": "n02",
+      "date": "2024-04-23",
+      "cat": "corporate",
+      "title": "Calvera completes acquisition of Brightwater Neuro",
+      "summary": "Acquisition adds two clinical-stage neuroscience programs."
+    },
+    {
+      "id": "n01",
+      "date": "2024-02-06",
+      "cat": "financial",
+      "title": "Calvera reports fourth-quarter and full-year 2023 results",
+      "summary": "Revenue reached $13.9 billion; dividend raised 6%."
+    }
+  ],
+  "quarters": [
+    {
+      "name": "Q4 2024",
+      "revenue": 3.86,
+      "netIncome": 0.71,
+      "eps": 1.38,
+      "dividend": 0.86
+    },
+    {
+      "name": "Q1 2025",
+      "revenue": 3.74,
+      "netIncome": 0.66,
+      "eps": 1.29,
+      "dividend": 0.88
+    },
+    {
+      "name": "Q2 2025",
+      "revenue": 3.92,
+      "netIncome": 0.73,
+      "eps": 1.42,
+      "dividend": 0.9
+    },
+    {
+      "name": "Q3 2025",
+      "revenue": 4.05,
+      "netIncome": 0.78,
+      "eps": 1.51,
+      "dividend": 0.93
+    },
+    {
+      "name": "Q4 2025",
+      "revenue": 4.21,
+      "netIncome": 0.81,
+      "eps": 1.57,
+      "dividend": 0.95
+    },
+    {
+      "name": "Q1 2026",
+      "revenue": 4.3,
+      "netIncome": 0.83,
+      "eps": 1.61,
+      "dividend": 0.97
+    },
+    {
+      "name": "Q2 2026",
+      "revenue": 4.47,
+      "netIncome": 0.9,
+      "eps": 1.74,
+      "dividend": 1.01
+    },
+    {
+      "name": "Q3 2026",
+      "revenue": 4.58,
+      "netIncome": 0.93,
+      "eps": 1.8,
+      "dividend": 1.02
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Elena Marsh",
+      "title": "Chief Executive Officer",
+      "bio": "Joined in 2016 to lead global commercial operations; CEO since 2021."
+    },
+    {
+      "name": "Amara Okafor, MD, PhD",
+      "title": "Chief Scientific Officer",
+      "bio": "Former professor of medicine; leads discovery and translational research."
+    },
+    {
+      "name": "David Lindqvist",
+      "title": "Chief Financial Officer",
+      "bio": "Twenty years in healthcare finance and capital markets."
+    },
+    {
+      "name": "Priya Raman, MD",
+      "title": "Chief Medical Officer",
+      "bio": "Oversees global clinical development and medical affairs."
+    },
+    {
+      "name": "Marcus Hale",
+      "title": "Chief Operating Officer",
+      "bio": "Runs manufacturing, quality and supply across 11 sites."
+    },
+    {
+      "name": "Sofia Reyes",
+      "title": "General Counsel",
+      "bio": "Leads legal, compliance and patient privacy."
+    },
+    {
+      "name": "Kenji Watanabe, PhD",
+      "title": "Head of Technical Operations",
+      "bio": "Built the company's gene therapy manufacturing network."
+    },
+    {
+      "name": "Grace Whitfield",
+      "title": "Chief People Officer",
+      "bio": "Focused on culture, talent and inclusion."
+    }
+  ],
+  "history": [
+    {
+      "year": "1998",
+      "text": "Founded in Boston by three academic researchers with one antibody program."
+    },
+    {
+      "year": "2006",
+      "text": "First medicine approved: Moravel for major depressive disorder."
+    },
+    {
+      "year": "2012",
+      "text": "Initial public offering; expansion into immunology."
+    },
+    {
+      "year": "2017",
+      "text": "Acquired a gene therapy platform; Rare Disease unit formed."
+    },
+    {
+      "year": "2021",
+      "text": "Velorix approved; oncology becomes the largest therapeutic area."
+    },
+    {
+      "year": "2024",
+      "text": "Acquired Brightwater Neuro; revenue passes $15 billion."
+    },
+    {
+      "year": "2026",
+      "text": "New Raleigh research campus opens; 16 marketed medicines."
+    }
+  ],
+  "offices": [
+    {
+      "name": "Global Headquarters",
+      "line1": "100 Harborview Drive",
+      "line2": "Boston, MA 02210, USA",
+      "phone": "+1 (555) 010-0100"
+    },
+    {
+      "name": "Research Campus",
+      "line1": "2500 Innovation Way",
+      "line2": "Raleigh, NC 27606, USA",
+      "phone": "+1 (555) 010-0200"
+    },
+    {
+      "name": "European Headquarters",
+      "line1": "18 Kingsgate Square",
+      "line2": "London EC2A 4BX, UK",
+      "phone": "+44 20 5550 0300"
+    },
+    {
+      "name": "Asia-Pacific Hub",
+      "line1": "1-8-2 Marunouchi",
+      "line2": "Tokyo 100-0005, Japan",
+      "phone": "+81 3 5550 0400"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "J-2611",
+      "title": "Principal Scientist, Antibody Engineering",
+      "dept": "rd",
+      "loc": "boston",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2614",
+      "title": "Senior Scientist, RNA Chemistry",
+      "dept": "rd",
+      "loc": "raleigh",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2618",
+      "title": "Computational Biologist",
+      "dept": "rd",
+      "loc": "remote",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2620",
+      "title": "Research Associate, Cell Therapy",
+      "dept": "rd",
+      "loc": "raleigh",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2623",
+      "title": "Clinical Trial Manager, Oncology",
+      "dept": "clinical",
+      "loc": "boston",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2627",
+      "title": "Medical Director, Neuroscience",
+      "dept": "clinical",
+      "loc": "london",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2630",
+      "title": "Biostatistician",
+      "dept": "clinical",
+      "loc": "remote",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2633",
+      "title": "Clinical Research Associate",
+      "dept": "clinical",
+      "loc": "tokyo",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2636",
+      "title": "Process Engineer, Gene Therapy",
+      "dept": "mfg",
+      "loc": "raleigh",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2639",
+      "title": "Quality Assurance Specialist",
+      "dept": "mfg",
+      "loc": "raleigh",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2641",
+      "title": "Supply Chain Planner",
+      "dept": "mfg",
+      "loc": "london",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2644",
+      "title": "Brand Manager, Immunology",
+      "dept": "commercial",
+      "loc": "boston",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2647",
+      "title": "Market Access Lead, Japan",
+      "dept": "commercial",
+      "loc": "tokyo",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2650",
+      "title": "Financial Analyst",
+      "dept": "corporate",
+      "loc": "boston",
+      "type": "Full-time"
+    },
+    {
+      "id": "J-2653",
+      "title": "Summer Intern, Data Science",
+      "dept": "corporate",
+      "loc": "remote",
+      "type": "Internship"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-03",
+      "title": "Q3 2026 earnings call",
+      "info": "Webcast · 8:00 AM ET"
+    },
+    {
+      "date": "2026-12-09",
+      "title": "R&D Day 2026",
+      "info": "New York · webcast available"
+    },
+    {
+      "date": "2027-01-12",
+      "title": "Healthcare investor conference",
+      "info": "San Francisco · fireside chat"
+    }
+  ],
+  "filings": [
+    {
+      "date": "2026-08-04",
+      "form": "10-Q",
+      "title": "Quarterly report for the period ended June 30, 2026"
+    },
+    {
+      "date": "2026-05-12",
+      "form": "10-Q",
+      "title": "Quarterly report for the period ended March 31, 2026"
+    },
+    {
+      "date": "2026-03-20",
+      "form": "DEF 14A",
+      "title": "Proxy statement for the 2026 annual meeting"
+    },
+    {
+      "date": "2026-02-18",
+      "form": "10-K",
+      "title": "Annual report for fiscal year 2025"
+    },
+    {
+      "date": "2026-02-03",
+      "form": "8-K",
+      "title": "Results of operations and financial condition"
+    }
+  ],
+  "priceStart": "2021-10-08",
+  "prices": [
+    60.9,
+    60.77,
+    60.73,
+    61.88,
+    61.82,
+    59.73,
+    60.34,
+    60.09,
+    59.91,
+    60.22,
+    60.7,
+    62.55,
+    63.69,
+    64.02,
+    63.05,
+    61.68,
+    62.21,
+    64.34,
+    64.58,
+    64.59,
+    65.6,
+    63.5,
+    63.2,
+    64.13,
+    65.67,
+    65.48,
+    66.27,
+    66.86,
+    68.32,
+    66.7,
+    67.82,
+    65.56,
+    61.64,
+    60.93,
+    59.78,
+    61.22,
+    62.39,
+    60.76,
+    62.18,
+    60.88,
+    60.94,
+    60.7,
+    61.05,
+    62.43,
+    63.58,
+    64.3,
+    65.5,
+    66.45,
+    65.64,
+    64.7,
+    64.16,
+    65.11,
+    64.91,
+    68.73,
+    67.56,
+    65.97,
+    67.36,
+    69.84,
+    70.86,
+    72.47,
+    75.13,
+    75.15,
+    72.76,
+    72.0,
+    73.82,
+    71.43,
+    71.64,
+    72.24,
+    71.84,
+    73.24,
+    74.41,
+    78.7,
+    80.02,
+    79.0,
+    78.08,
+    76.65,
+    78.54,
+    77.6,
+    77.59,
+    79.11,
+    77.85,
+    77.42,
+    74.11,
+    72.28,
+    71.39,
+    72.19,
+    74.35,
+    74.41,
+    74.96,
+    75.34,
+    77.38,
+    79.12,
+    79.72,
+    77.86,
+    79.62,
+    80.42,
+    82.86,
+    82.87,
+    86.82,
+    86.15,
+    89.51,
+    89.82,
+    88.78,
+    86.44,
+    86.19,
+    89.19,
+    91.0,
+    92.57,
+    87.36,
+    88.91,
+    90.16,
+    89.03,
+    87.75,
+    87.81,
+    91.51,
+    89.26,
+    88.42,
+    91.37,
+    90.47,
+    89.75,
+    90.04,
+    87.44,
+    87.98,
+    85.51,
+    87.4,
+    87.5,
+    92.38,
+    93.11,
+    96.26,
+    93.36,
+    93.2,
+    94.04,
+    98.1,
+    94.27,
+    96.64,
+    98.15,
+    101.9,
+    103.8,
+    104.09,
+    102.96,
+    100.04,
+    100.69,
+    100.4,
+    105.45,
+    104.1,
+    105.1,
+    101.35,
+    100.6,
+    101.44,
+    103.66,
+    107.49,
+    107.61,
+    104.98,
+    106.37,
+    107.95,
+    109.48,
+    107.91,
+    111.12,
+    111.64,
+    113.81,
+    117.59,
+    119.62,
+    120.77,
+    127.35,
+    128.45,
+    127.9,
+    128.61,
+    133.56,
+    134.33,
+    136.4,
+    140.72,
+    139.41,
+    134.05,
+    135.42,
+    136.58,
+    135.01,
+    138.25,
+    140.69,
+    137.76,
+    139.9,
+    139.68,
+    135.14,
+    137.03,
+    137.3,
+    135.27,
+    137.38,
+    139.42,
+    137.91,
+    139.65,
+    143.48,
+    141.45,
+    143.17,
+    143.6,
+    151.83,
+    145.49,
+    148.33,
+    147.66,
+    147.72,
+    154.88,
+    155.27,
+    164.04,
+    162.73,
+    164.53,
+    163.01,
+    160.72,
+    161.37,
+    160.66,
+    161.83,
+    154.03,
+    161.79,
+    161.51,
+    168.62,
+    164.9,
+    166.41,
+    179.39,
+    176.0,
+    170.03,
+    168.12,
+    170.33,
+    173.47,
+    179.14,
+    178.34,
+    171.77,
+    170.25,
+    175.58,
+    177.8,
+    169.7,
+    169.79,
+    175.72,
+    184.91,
+    187.64,
+    189.26,
+    183.84,
+    180.33,
+    180.73,
+    183.1,
+    185.83,
+    183.88,
+    178.97,
+    175.79,
+    171.07,
+    173.86,
+    164.35,
+    163.17,
+    165.06,
+    171.22,
+    171.64,
+    175.89,
+    174.34,
+    171.35,
+    168.69,
+    175.0,
+    179.29,
+    181.52,
+    196.15,
+    196.14,
+    199.2,
+    200.81,
+    199.89,
+    211.15,
+    218.94
+  ]
+}
