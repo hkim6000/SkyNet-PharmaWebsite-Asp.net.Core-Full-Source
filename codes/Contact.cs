@@ -24,7 +24,7 @@ namespace Pharma.codes
         public async Task<ApiResponse> Send()
         {
             ApiResponse response = new ApiResponse();
-            await Task.CompletedTask;
+            
             string name = (GetDataValue("name") ?? string.Empty).Trim();
             string email = (GetDataValue("email") ?? string.Empty).Trim();
             string topic = (GetDataValue("topic") ?? string.Empty).Trim();
